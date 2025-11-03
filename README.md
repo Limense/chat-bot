@@ -9,7 +9,7 @@
 
 **Sistema de chatbot conversacional inteligente** para atención al cliente en ferretería, integrado con **Meta Messenger**, **OpenAI** y bases de datos relacionales y vectoriales.
 
-Desarrollado como parte del **Examen Técnico - Octubre 2025** para demostrar habilidades en:
+Desarrollado como parte del **Examen Técnico - Nov 2025** para demostrar habilidades en:
 - Desarrollo de APIs con Node.js y Express.js
 - Integración con Meta Messenger Platform
 - Procesamiento de lenguaje natural con OpenAI
