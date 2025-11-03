@@ -1,0 +1,10 @@
+node_modules/
+.env
+data/vectordb/
+logs/
+*.log
+.DS_Store
+.vscode/
+dist/
+build/
+coverage/

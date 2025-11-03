@@ -1,0 +1,39 @@
+{
+  "name": "ferreteria-chatbot",
+  "version": "1.0.0",
+  "description": "Chatbot inteligente para atención al cliente en ferretería integrado con Meta Messenger",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "setup-db": "node src/database/setup.js",
+    "seed-data": "node src/database/seed.js",
+    "test-setup": "node test-setup.js"
+  },
+  "keywords": [
+    "chatbot",
+    "messenger",
+    "openai",
+    "ferreteria",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.2",
+    "mysql2": "^3.6.5",
+    "dotenv": "^16.3.1",
+    "openai": "^4.20.1",
+    "hnswlib-node": "^1.4.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.1.5",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
